@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+ .margin{
+  
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+.logo{
+  padding-left: 52px
+}
+  
+  /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;
+    color: gray;
+  }
+  
+  /*==Style cho menu===*/
+
+  /* gạch chân vàng */
+  .v{
+    
+  }
+ .margin-hd{
+  padding-left: 127px;
+  padding-right: 134px;
+ }
+ .margin-ft{
+ 
+  padding-right: 167px;
+  padding-left: 189px
+ }
+  .bg-red{
+    background:#fb1c36;  
+    color: white;
+  }
+.a{
+  color: azure !important;
+}
+.navbar{
+  padding: 0 0 !important;
+  
+}
+.container{
+  margin-top: 50px;
+}
+.navbar-nav.mr-auto {
+  
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  
+}
+.tag-nav {
+    padding: 25px 38px !important;
+    position: relative;
+    color: #fff !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* display: block; */
+}
+.nav-link:before {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: yellow;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+.nav-link:hover.nav-link:before{
+  opacity: 1;
+  width:100%;
+  
+}
+ 
+  /* intro */
+  .bintro{
+    display: flex;
+    padding: 00px 20px 20px 20px;
+   
+  }
+  .bintro>.col-md-4{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    width: 33%;
+    position: relative;
+    
+  }
+  .bintro img{
+    display: block;
+    width:100%;
+   ;
+  }
+
+  .ml-pl-1{
+    margin-left: -15px;
+    padding-left: 15px;
+}
+.ml-pl-2{
+    padding-left: 21px;
+}
+
+  /* Css Place */
