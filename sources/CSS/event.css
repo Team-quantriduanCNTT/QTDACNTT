@@ -1,0 +1,35 @@
+.menu-phu{
+    
+    padding: 5px 5px 5px 5px;
+}
+.can-ngang-phu{
+    flex-direction: row;
+    padding: 5px 5px 5px 5px;
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 1px dashed;
+}
+.the-p{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.img-menu-phu{
+    margin-right: 10px;
+}
+/* menu chinh */
+.can-ngang{
+    flex-direction: row;
+    padding: 5px 5px 5px 5px;
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 1px dashed;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}                                                                                  
+.back-color{
+    background-color: #ebedf0;
+}
